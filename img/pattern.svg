@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <pattern id="corporate-pattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <g fill="rgba(255,255,255,.06)">
+        <path d="M0 20 L12 24 L12 32 L0 28 Z"/>
+        <path d="M20 8 L32 12 L32 20 L20 16 Z"/>
+        <path d="M40 28 L52 32 L52 40 L40 36 Z"/>
+        <path d="M60 16 L72 20 L72 28 L60 24 Z"/>
+        <path d="M8 48 L20 52 L20 60 L8 56 Z"/>
+        <path d="M28 56 L40 60 L40 68 L28 64 Z"/>
+        <path d="M48 44 L60 48 L60 56 L48 52 Z"/>
+        <path d="M68 52 L80 56 L80 64 L68 60 Z"/>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#corporate-pattern)"/>
+</svg>

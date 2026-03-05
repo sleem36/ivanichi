@@ -1,0 +1,13 @@
+# Логи и временные файлы
+form-submissions.log
+.cursor/
+*.log
+tmp/
+
+# Системные и редактор
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.env
+.env.local

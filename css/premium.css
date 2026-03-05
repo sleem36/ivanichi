@@ -1,0 +1,1673 @@
+/* Доп. стили лендинга */
+
+/* мобилка: без горизонтального скролла */
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding-top: 72px; /* место под фиксированную шапку */
+}
+main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+/* фиксированная шапка */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.header__container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* контакты в шапке */
+.header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__phone {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #004A81;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+.header__phone:hover {
+  color: #2CAD6E;
+}
+
+/* плашка «Документы» в блоке о компании */
+.team__docs-plaque {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 32px;
+  padding: 18px 28px;
+  background: linear-gradient(135deg, #f0f9f4 0%, #e8f5ee 100%);
+  border: 1px solid rgba(44, 173, 110, 0.25);
+  border-radius: 12px;
+  color: #004A81;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.125rem;
+  box-shadow: 0 4px 12px rgba(0, 74, 129, 0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+.team__docs-plaque:hover {
+  box-shadow: 0 8px 24px rgba(44, 173, 110, 0.2);
+  transform: translateY(-2px);
+  border-color: rgba(44, 173, 110, 0.4);
+  background: linear-gradient(135deg, #e8f5ee 0%, #dff0e8 100%);
+}
+.team__docs-plaque:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 3px;
+}
+.team__docs-plaque-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2CAD6E;
+}
+.team__docs-plaque-text {
+  letter-spacing: 0.02em;
+}
+
+/* Блок «О компании»: видео и реквизиты */
+.team__video-wrap {
+  margin-top: 48px;
+  max-width: 100%;
+}
+.team__video-title {
+  margin: 0 0 16px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #004A81;
+}
+.team__video-inner {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  aspect-ratio: 16 / 9;
+}
+.team__video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+.team__requisites {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0, 74, 129, 0.15);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #555;
+}
+.team__requisites-copy {
+  margin: 0 0 8px;
+}
+.team__requisites-inn {
+  margin: 0 0 8px;
+  font-weight: 600;
+  color: #004A81;
+}
+.team__requisites-disclaimer {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: #777;
+}
+
+.team__about-link {
+  display: inline-block;
+  color: #2CAD6E;
+  font-weight: 600;
+  text-underline-offset: 3px;
+}
+.team__about-link:hover {
+  text-decoration: underline;
+}
+.team__about-link:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 2px;
+}
+
+/* Сообщение об успешной отправке заявки в модальном окне */
+.modal__success {
+  text-align: center;
+  padding: 32px 48px 0 24px;
+}
+.modal__success-text {
+  margin: 0 0 24px;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #004A81;
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #2CAD6E, #004A81);
+  transform-origin: left;
+  transform: scaleX(0);
+  z-index: 9999;
+  transition: transform 0.08s ease-out;
+}
+
+/* Subtle noise overlay for depth (premium texture) */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+/* Блок «Комплексные решения»: стрелки под слайдером (flex order), одинаковая высота карточек */
+#competencies-slider.splide {
+  display: flex;
+  flex-direction: column;
+}
+#competencies-slider .splide__track {
+  order: 1;
+}
+#competencies-slider .splide__arrows {
+  order: 2;
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+#competencies-slider .splide__arrow {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  transform: none;
+}
+#competencies-slider .splide__arrow--prev {
+  right: auto;
+}
+#competencies-slider .splide__arrow--next {
+  left: auto;
+}
+#competencies-slider .splide__list {
+  align-items: stretch;
+}
+#competencies-slider .splide__slide {
+  height: auto;
+  display: flex;
+}
+#competencies-slider .competencies__card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+}
+#competencies-slider .competencies__card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+#competencies-slider .competencies__card-list {
+  flex: 1;
+}
+
+/* Блок «Почему Иванычи — надежный выбор»: на десктопе без слайдера — сетка 2 колонки */
+#advantages-choice-slider.advantages__grid {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 993px) {
+  #advantages-choice-slider {
+    visibility: visible !important;
+  }
+  #advantages-choice-slider .splide__arrows {
+    display: none;
+  }
+  #advantages-choice-slider .splide__track {
+    overflow: visible;
+  }
+  #advantages-choice-slider .splide__list {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    transform: none !important;
+  }
+  #advantages-choice-slider .splide__slide {
+    width: auto !important;
+  }
+}
+
+/* Блок преимуществ (advantages--v2): на мобильной — слайдер Splide */
+#advantages-slider.advantages__grid {
+  display: flex;
+  flex-direction: column;
+}
+#advantages-slider .splide__track {
+  order: 1;
+}
+#advantages-slider .splide__arrows {
+  order: 2;
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+#advantages-slider .splide__pagination {
+  display: none !important;
+}
+#advantages-slider .splide__list {
+  align-items: stretch;
+}
+#advantages-slider .splide__slide {
+  height: auto;
+  display: flex;
+}
+#advantages-slider .advantages__card {
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+}
+#advantages-slider .splide__arrow {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  transform: none;
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  color: #004A81;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+#advantages-slider .splide__arrow:hover,
+#advantages-slider .splide__arrow:active {
+  background: #fff;
+  color: #004A81;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+#advantages-slider .splide__arrow--prev { right: auto; }
+#advantages-slider .splide__arrow--next { left: auto; }
+#advantages-slider .splide__pagination {
+  margin-top: 16px;
+  gap: 8px;
+}
+#advantages-slider .splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  background: #c6cedb;
+  opacity: 1;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+#advantages-slider .splide__pagination__page.is-active {
+  background: #2CAD6E;
+  transform: scale(1.2);
+}
+
+/* Блок advantages--v2: без эффектов при наведении и нажатии на карточках (все разрешения) */
+#advantages-slider .advantages__card {
+  transition: none !important;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+#advantages-slider .advantages__card:hover,
+#advantages-slider .advantages__card:active,
+#advantages-slider .advantages__card:focus,
+#advantages-slider .advantages__card:focus-visible {
+  transform: none !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+#advantages-slider .splide__slide:active .advantages__card {
+  transform: none !important;
+}
+#advantages-slider .splide__slide {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
+/* Блок advantages (выбор): те же отключённые эффекты и стиль стрелок, что у advantages--v2 */
+#advantages-choice-slider .advantages__card {
+  transition: none !important;
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+#advantages-choice-slider .advantages__card:hover,
+#advantages-choice-slider .advantages__card:active,
+#advantages-choice-slider .advantages__card:focus,
+#advantages-choice-slider .advantages__card:focus-visible {
+  transform: none !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+#advantages-choice-slider .splide__slide:active .advantages__card {
+  transform: none !important;
+}
+#advantages-choice-slider .splide__slide {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+#advantages-choice-slider .splide__arrow {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  transform: none;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  background: #fff;
+  color: #004A81;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+#advantages-choice-slider .splide__arrow:hover,
+#advantages-choice-slider .splide__arrow:active {
+  background: #fff;
+  color: #004A81;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+#advantages-choice-slider .splide__arrow--prev { right: auto !important; left: auto !important; }
+#advantages-choice-slider .splide__arrow--next { left: auto !important; right: auto !important; }
+#advantages-choice-slider .splide__arrows {
+  order: 2;
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+#advantages-choice-slider .splide__track { order: 1; }
+#advantages-choice-slider.advantages__grid {
+  display: flex;
+  flex-direction: column;
+}
+#advantages-choice-slider .splide__list { align-items: stretch; }
+#advantages-choice-slider .splide__slide { height: auto; display: flex; }
+#advantages-choice-slider .advantages__card { flex: 1; width: 100%; min-width: 0; }
+
+@media (min-width: 993px) {
+  /* На десктопе слайдер отключён — статичная сетка из 4 колонок; контейнер без Splide остаётся видимым */
+  #advantages-slider {
+    visibility: visible !important;
+  }
+  #advantages-slider .splide__arrows {
+    display: none;
+  }
+  #advantages-slider .splide__track {
+    overflow: visible;
+  }
+  #advantages-slider .splide__list {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    transform: none !important;
+  }
+  #advantages-slider .splide__slide {
+    width: auto !important;
+  }
+}
+
+/* Слайдер «Комплексные решения»: частичные карточки по краям скрыты, тень при наведении не обрезается */
+#competencies,
+#competencies .competencies__container {
+  overflow: visible !important;
+}
+.competencies__slider {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  margin-top: -56px;
+  margin-bottom: -56px;
+  overflow: visible !important;
+}
+#competencies-slider {
+  overflow: visible !important;
+  /* Вертикально — запас для тени; горизонтально — небольшой запас для тени крайних карточек */
+  clip-path: inset(-80px -12px -80px -12px);
+}
+#competencies-slider .splide__track {
+  overflow: visible !important;
+}
+#competencies-slider .splide__list,
+#competencies-slider .splide__slide,
+#competencies-slider .competencies__card {
+  overflow: visible !important;
+}
+
+/* Тень карточек укладывается в боковой запас 12px; эффекты при наведении */
+#competencies-slider .competencies__card {
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+#competencies-slider .competencies__card:hover {
+  box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.14);
+  transform: translateY(-4px);
+}
+
+/* Кнопка «Заказать» на карточках */
+#competencies-slider .competencies__card-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  padding: 12px 24px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #2CAD6E, #239a5e);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+#competencies-slider .competencies__card-btn:hover {
+  box-shadow: 0 6px 20px rgba(44, 173, 110, 0.4);
+  transform: translateY(-1px);
+}
+#competencies-slider .competencies__card-btn:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 2px;
+}
+
+/* Premium CTA: анимация кнопки «Вызвать инженера» в шапке */
+@keyframes cta-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 16px rgba(44, 173, 110, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 6px 24px rgba(44, 173, 110, 0.6);
+    transform: scale(1.02);
+  }
+}
+.header .header__btn {
+  animation: cta-pulse 2s ease-in-out infinite;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.header .header__btn:hover {
+  animation: none;
+  box-shadow: 0 6px 28px rgba(44, 173, 110, 0.55);
+  transform: translateY(-1px);
+}
+.header .header__btn:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 3px;
+}
+
+/* Premium CTA glow (промо-кнопка) */
+.promo__btn--primary:hover {
+  box-shadow: 0 8px 32px rgba(44, 173, 110, 0.4);
+}
+.promo__btn--primary:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 3px;
+}
+
+/* Staggered reveal for cards (add .stagger-children to parent) */
+.stagger-children .competencies__card,
+.stagger-children .factoid,
+.stagger-children .advantages__card {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.stagger-children .competencies__card.visible,
+.stagger-children .factoid.visible,
+.stagger-children .advantages__card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-children .competencies__card:nth-child(1) { transition-delay: 0.05s; }
+.stagger-children .competencies__card:nth-child(2) { transition-delay: 0.1s; }
+.stagger-children .competencies__card:nth-child(3) { transition-delay: 0.15s; }
+.stagger-children .factoid:nth-child(1) { transition-delay: 0.05s; }
+.stagger-children .factoid:nth-child(2) { transition-delay: 0.1s; }
+.stagger-children .factoid:nth-child(3) { transition-delay: 0.15s; }
+.stagger-children .factoid:nth-child(4) { transition-delay: 0.2s; }
+.stagger-children .advantages__card:nth-child(1) { transition-delay: 0.05s; }
+.stagger-children .advantages__card:nth-child(2) { transition-delay: 0.1s; }
+
+/* Parallax container for hero background */
+.promo__bg img {
+  will-change: transform;
+}
+
+/* Правая плашка «Перечень инженерных систем» на первом экране */
+.promo__inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  gap: 24px 40px;
+  align-items: start;
+}
+.promo__content {
+  grid-column: 1;
+  grid-row: 1;
+}
+.promo__systems {
+  grid-column: 2;
+  grid-row: 1;
+  min-width: 0;
+}
+.promo__systems-plaque {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  min-width: 280px;
+  max-width: 360px;
+}
+.promo__systems-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.4;
+}
+.promo__systems-list li {
+  padding-left: 0;
+  position: relative;
+  padding-left: 16px;
+}
+.promo__systems-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2CAD6E;
+}
+.promo__systems-for {
+  margin: 16px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+
+.promo__benefits {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: flex;
+  gap: 64px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  max-width: 790px;
+}
+
+/* Smooth underline for nav links (premium micro-interaction) */
+.header__link {
+  position: relative;
+}
+.header__link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #2CAD6E;
+  transition: width 0.3s ease;
+}
+.header__link:hover::after {
+  width: 100%;
+}
+
+/* Timeline «7 шагов» — отступ между кругом и текстом */
+.timeline__step {
+  gap: 1.5rem;
+}
+
+/* Кнопка «Сделать заявку» в блоке 7 шагов */
+.timeline__cta-wrap {
+  margin-top: 2rem;
+  text-align: center;
+}
+.timeline__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2CAD6E;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.timeline__cta:hover {
+  box-shadow: 0 6px 20px rgba(44, 173, 110, 0.4);
+  transform: translateY(-1px);
+}
+.timeline__cta:focus-visible {
+  outline: 2px solid #2CAD6E;
+  outline-offset: 2px;
+}
+
+/* На мобильной у кнопки только иконка; анимация пульса остаётся */
+@media (max-width: 992px) {
+  .header__btn-text {
+    display: none;
+  }
+}
+
+/* Мобильное меню и шапка: бургер всегда целиком виден, контакты сжимаются при нехватке места */
+@media (max-width: 992px) {
+  .header__container {
+    display: grid;
+    /* Третья колонка фиксирована под бургер, средняя может сжиматься (minmax(0,auto)) */
+    grid-template-columns: minmax(0, 1fr) minmax(0, auto) 44px;
+    grid-template-areas: "logo contacts burger";
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .header__logo {
+    grid-area: logo;
+    min-width: 0;
+    max-width: 100%;
+    justify-self: start;
+  }
+  .header__logo-img {
+    max-width: 100%;
+    height: auto;
+    max-height: 28px;
+    object-fit: contain;
+  }
+  .header__contacts {
+    grid-area: contacts;
+    min-width: 0;
+    overflow: visible;
+    justify-content: flex-end;
+    padding: 8px 12px 8px 0;
+  }
+  .header__burger {
+    grid-area: burger;
+    display: flex;
+    flex-shrink: 0;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    margin-left: 0;
+    justify-self: end;
+    position: relative;
+    z-index: 60;
+    cursor: pointer;
+  }
+  .header__nav {
+    display: none;
+  }
+  /* Выпадающее меню: поверх контента, не перекрывает бургер */
+  .header.header--menu-open .header__nav {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 16px 20px;
+    gap: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    z-index: 55;
+  }
+  .header.header--menu-open .header__nav .header__link {
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    font-size: 0.9375rem;
+  }
+  .header.header--menu-open .header__nav .header__link:last-child {
+    border-bottom: none;
+  }
+  .header.header--menu-open .header__nav-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+  }
+  .header__nav-contact {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .header__nav-contact-label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #777;
+    text-transform: uppercase;
+  }
+  .header__nav-contact-value {
+    font-size: 0.9375rem;
+    color: #004A81;
+    text-decoration: none;
+  }
+  .header__nav-contact-value:hover {
+    text-decoration: underline;
+  }
+  .header__nav-contact .header__nav-contact-value:not(a) {
+    color: #1a1a1a;
+  }
+  .header__nav-contact .header__nav-contact-value:not(a):hover {
+    text-decoration: none;
+  }
+  .header__nav-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    font-family: inherit;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: #fff;
+    background: #2CAD6E;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .header__nav-btn:hover {
+    background: #259a5f;
+  }
+  .header__nav-btn:focus-visible {
+    outline: 2px solid #2CAD6E;
+    outline-offset: 2px;
+  }
+}
+
+/* Контакты в бургер-меню: скрыты по умолчанию, показываются только в открытом мобильном меню */
+.header__nav-contacts {
+  display: none;
+}
+
+/* Лицензии: на десктопе (769px+) — сетка без слайдера; слайдер только на мобильной */
+@media (min-width: 769px) {
+  #licenses-slider {
+    visibility: visible !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #licenses-slider .splide__track {
+    overflow: visible;
+    width: 100%;
+  }
+  #licenses-slider .splide__list {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    transform: none !important;
+    justify-items: center;
+  }
+  #licenses-slider .splide__slide {
+    width: 100% !important;
+    max-width: 100%;
+    display: flex !important;
+    justify-content: center;
+  }
+  #licenses-slider .licenses__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #licenses-slider .licenses__img {
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+  }
+  #licenses-slider .splide__arrows {
+    display: none !important;
+  }
+}
+
+/* Мобильные правки (768px): кнопка только иконка — бургер не обрезается */
+@media (max-width: 768px) {
+  .header__container {
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .header__logo {
+    max-width: 90px;
+  }
+  .header__contacts {
+    gap: 6px;
+    min-width: 0;
+  }
+  .header__phone {
+    font-size: 1.0625rem;
+    white-space: nowrap;
+    margin-right: 10px;
+  }
+  /* На мобильной кнопка только иконка; тень и анимация не обрезаются (overflow: visible у .header__contacts) */
+  .header .header__btn {
+    flex-shrink: 0;
+    width: 40px;
+    min-width: 40px;
+    padding: 0;
+    font-size: 0;
+    min-height: 38px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .header__btn svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    margin: 0;
+    display: block;
+  }
+  .header__burger {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  .header__burger span {
+    height: 2px;
+  }
+  .portfolio__title,
+  .section-title,
+  .competencies__title,
+  .team__title,
+  .licenses__title,
+  .advantages__title,
+  .clients__title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .timeline__step-desc {
+    max-height: none !important;
+    overflow: visible !important;
+    margin-top: 4px;
+  }
+  .timeline__step-body,
+  .timeline__step-title,
+  .timeline__step-desc {
+    text-align: left;
+  }
+  .timeline__step-btn {
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .timeline__step-chevron {
+    display: none;
+  }
+  /* Слайдер «Команда»: карточка на всю ширину, текст не обрезается, стрелки под слайдером */
+  #team-slider.team__slider {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 20px);
+  }
+  #team-slider .splide__track {
+    order: 1;
+  }
+  #team-slider .splide__arrows {
+    order: 2;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  #team-slider .splide__arrow {
+    position: relative;
+    transform: none;
+  }
+  #team-slider .splide__arrow--prev { right: auto; }
+  #team-slider .splide__arrow--next { left: auto; }
+  /* На мобильной точки скрыты, на десктопе — видны */
+  #team-slider .splide__pagination {
+    display: none !important;
+  }
+  #team-slider .splide__list {
+    min-width: 0;
+  }
+  #team-slider .splide__slide,
+  #team-slider .team__member {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+  #team-slider .team__member {
+    padding: 0 10px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  #team-slider .team__avatar {
+    align-self: center;
+  }
+  #team-slider .team__member-info {
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  #team-slider .team__desc {
+    overflow: visible;
+    word-wrap: break-word;
+  }
+  #contacts .contacts__container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+  #contacts .contacts__info,
+  #contacts .contacts__form-wrap {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+  }
+  #contacts .contacts__form,
+  #contacts .contacts__form-wrap {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__phone {
+    font-size: 1rem;
+    margin-right: 8px;
+  }
+  .header .header__btn svg {
+    margin: 0;
+  }
+}
+
+/* ========== Нормальная мобильная версия лендинга ========== */
+@media (max-width: 768px) {
+  /* Базовые отступы секций */
+  .promo__inner,
+  .advantages__container,
+  .competencies__container,
+  .clients__container,
+  .portfolio__container,
+  .team__container,
+  .licenses__container,
+  .timeline__container,
+  .calc__container,
+  .contacts__container,
+  .footer__container {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Калькулятор: горизонтальная прокрутка у обёртки .calc__scroll-wrap */
+  .calc__container {
+    overflow-x: hidden;
+  }
+  .calc__scroll-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    min-width: 0;
+  }
+  .calc__scroll-wrap .calc__table-scroll,
+  .calc__scroll-wrap .calc__accordions {
+    min-width: 620px;
+  }
+  .calc__scroll-wrap .calc-table {
+    min-width: 620px;
+  }
+
+  /* Герой — компактнее */
+  .promo__inner {
+    min-height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+  }
+  .promo__content {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .promo__systems {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 100%;
+  }
+  .promo__systems-plaque {
+    min-width: 0;
+    max-width: 100%;
+    padding: 18px 20px;
+  }
+  .promo__benefits {
+    grid-row: 3;
+  }
+  .promo__badge {
+    font-size: 0.6875rem;
+    margin-bottom: 8px;
+  }
+  .promo__title {
+    font-size: clamp(1.35rem, 6vw, 1.75rem);
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+  .promo__subtitle {
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    margin-bottom: 18px;
+  }
+  .promo__systems-list {
+    font-size: 0.75rem;
+    gap: 8px;
+  }
+  .promo__systems-list li::before {
+    width: 5px;
+    height: 5px;
+    top: 0.45em;
+  }
+  .promo__systems-for {
+    font-size: 0.8125rem;
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+  .promo__buttons {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 280px;
+  }
+  .promo__btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+  }
+  .promo__btn svg {
+    width: 16px;
+    height: 16px;
+  }
+  .promo__benefits {
+    gap: 14px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .promo__benefit {
+    min-width: 0;
+  }
+  .promo__benefit span {
+    font-size: 0.75rem;
+  }
+  .promo__benefit .promo__benefit-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Секции: заголовки мельче, отступы меньше */
+  .advantages__title,
+  .competencies__title,
+  .team__title,
+  .licenses__title,
+  .clients__title,
+  .portfolio__title,
+  .timeline__title,
+  .calc__title,
+  .contacts__form-title {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    margin-bottom: 6px;
+  }
+  .advantages__subtitle,
+  .competencies__desc,
+  .portfolio__subtitle,
+  .licenses__subtitle,
+  .clients__subtitle {
+    font-size: 0.8125rem;
+  }
+  /* Секции: убираем перебор 96px 24px с десктопа, на мобайле компактно */
+  .promo,
+  .factoids,
+  .competencies,
+  .calc,
+  .portfolio,
+  .team,
+  .objections,
+  .licenses,
+  .advantages,
+  .services,
+  .timeline,
+  .contacts {
+    padding: 20px 10px;
+  }
+  .clients {
+    padding: 20px 10px;
+  }
+  .footer {
+    padding: 20px 10px;
+  }
+  .promo__inner {
+    padding-top: 12px;
+    padding-bottom: 16px;
+  }
+  .advantages--v2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Внутренние отступы блоков — компактнее на мобильной */
+  #competencies-slider .competencies__card-body {
+    padding: 10px;
+  }
+  #competencies-slider .competencies__card-title {
+    font-size: 0.9375rem;
+  }
+  #competencies-slider .competencies__card-desc {
+    font-size: 0.8125rem;
+  }
+  #competencies-slider .competencies__card-item {
+    font-size: 0.8125rem;
+  }
+  #competencies-slider .competencies__card-btn {
+    min-height: 42px;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    margin-top: 10px;
+  }
+  #competencies-slider .splide__arrows {
+    margin-top: 16px;
+    gap: 10px;
+  }
+  #competencies-slider .splide__arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Портфолио — компактнее */
+  .portfolio__tabs {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .portfolio__tab {
+    padding: 8px 12px;
+    font-size: 0.75rem;
+  }
+  .portfolio__layout {
+    flex-direction: column;
+  }
+  .portfolio__info {
+    padding: 10px;
+  }
+  .portfolio__project-title {
+    font-size: 1rem;
+  }
+  .portfolio__cta {
+    min-height: 42px;
+    padding: 10px 16px;
+    font-size: 0.8125rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Карточка объекта: метрики, стоимость, список работ — шрифты и отступы компактнее */
+  .portfolio__metrics {
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  .portfolio__metric-value {
+    font-size: 1.5rem;
+  }
+  .portfolio__metric-unit {
+    font-size: 0.8125rem;
+  }
+  .portfolio__metric-label {
+    font-size: 0.625rem;
+  }
+  .portfolio__cost-wrap {
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .portfolio__cost-label {
+    margin-bottom: 2px;
+  }
+  .portfolio__cost {
+    font-size: 1.25rem;
+  }
+  .portfolio__experience {
+    font-size: 0.6875rem;
+    margin-top: 12px;
+  }
+  .portfolio__works-label {
+    margin-bottom: 8px;
+    font-size: 0.625rem;
+  }
+  .portfolio__works-list li {
+    font-size: 0.8125rem;
+    margin-bottom: 6px;
+  }
+  .portfolio__info {
+    gap: 12px;
+  }
+
+  /* О компании: видео и реквизиты компактнее */
+  .team__about {
+    font-size: 0.8125rem;
+  }
+  .team__docs-plaque {
+    padding: 10px 12px;
+    font-size: 0.875rem;
+    margin-top: 16px;
+  }
+  .team__video-wrap {
+    margin-top: 16px;
+  }
+  .team__video-title {
+    font-size: 1rem;
+  }
+  .team__requisites {
+    margin-top: 16px;
+    padding-top: 12px;
+    font-size: 0.75rem;
+  }
+  .team__name {
+    font-size: 0.9375rem;
+  }
+  .team__role {
+    font-size: 0.75rem;
+  }
+  .team__desc {
+    font-size: 0.8125rem;
+  }
+
+  /* Единые мобильные шрифты: таймлайн, футер, фактоиды, калькулятор */
+  .timeline__step-title {
+    font-size: 0.875rem;
+  }
+  .timeline__step-desc {
+    font-size: 0.8125rem;
+  }
+  .factoid__value {
+    font-size: 1.25rem;
+  }
+  .factoid__label {
+    font-size: 0.8125rem;
+  }
+  .calc__title {
+    font-size: 1.125rem;
+  }
+  .calc__subtitle {
+    font-size: 0.8125rem;
+  }
+  .footer__copy {
+    font-size: 0.8125rem;
+  }
+  .objections__title {
+    font-size: 1.125rem;
+  }
+  .objections__subtitle {
+    font-size: 0.8125rem;
+  }
+  .objections__card-title {
+    font-size: 1rem;
+  }
+  .objections__card-text {
+    font-size: 0.8125rem;
+  }
+  .services__title {
+    font-size: 1.125rem;
+  }
+  .services__subtitle {
+    font-size: 0.8125rem;
+  }
+  .services__tab,
+  .services__link {
+    font-size: 0.875rem;
+  }
+
+  /* Лицензии: на мобильной — слайдер, кнопки снизу */
+  #licenses-slider.licenses__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #licenses-slider .splide__track {
+    order: 1;
+  }
+  #licenses-slider .splide__arrows {
+    order: 2;
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+  #licenses-slider .splide__arrow {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    transform: none;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    margin: 0;
+    background: #fff;
+    color: #004A81;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: none !important;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+  }
+  #licenses-slider .splide__arrow:hover,
+  #licenses-slider .splide__arrow:active,
+  #licenses-slider .splide__arrow:focus {
+    background: #fff !important;
+    color: #004A81 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+    transform: none !important;
+  }
+  #licenses-slider .splide__arrow--prev { right: auto !important; left: auto !important; }
+  #licenses-slider .splide__arrow--next { left: auto !important; right: auto !important; }
+  #licenses-slider .splide__slide {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    transition: none !important;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+  }
+  #licenses-slider .splide__slide:hover,
+  #licenses-slider .splide__slide:active {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  #licenses-slider .licenses__item {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: none !important;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+  }
+  #licenses-slider .licenses__item:hover,
+  #licenses-slider .licenses__item:active {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  #licenses-slider .licenses__img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .licenses__grid:not(#licenses-slider) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  /* Блок «Почему «Иванычи» — надежный выбор»: на мобильной стрелки под слайдером (стиль задан глобально) */
+  #advantages-choice-slider .splide__arrows {
+    margin-top: 20px;
+  }
+
+  /* Картинки лицензий нигде не растягивать — только пропорции */
+  .licenses__img {
+    object-fit: contain !important;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  /* Калькулятор и формы — мельче */
+  .calc__form-title,
+  .contacts__form-title {
+    font-size: 1rem;
+  }
+  .contacts__submit,
+  .calc__form-submit,
+  button.contacts__submit {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    width: 100%;
+  }
+  .contacts__field-label,
+  .calc__form-label {
+    font-size: 0.8125rem;
+  }
+  .contacts__input,
+  .contacts__textarea,
+  .calc__form-input {
+    font-size: 0.9375rem;
+    padding: 8px 10px;
+  }
+  .calc__form-block,
+  .contacts__form-wrap {
+    padding: 14px;
+  }
+  .advantages__card--compact {
+    padding: 12px 10px;
+  }
+  .objections__card {
+    padding: 20px 14px;
+  }
+  .factoid {
+    gap: 10px;
+  }
+
+  /* Модальное окно — компактнее */
+  .modal__content {
+    max-width: calc(100vw - 24px);
+    max-height: 90vh;
+    overflow-y: auto;
+    margin: 12px;
+    padding: 12px;
+  }
+  .modal__title {
+    font-size: 1.0625rem;
+  }
+  /* Модалка «Документы»: на мобильной убрать левую колонку с заголовком — список на всю ширину */
+  .modal--docs .docs-modal__left,
+  .modal--docs .docs-modal__divider {
+    display: none;
+  }
+  .modal--docs .docs-modal__layout {
+    display: block;
+    padding-top: 44px;
+  }
+  .modal--docs .docs-modal__right {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+  }
+  /* Преимущества, фактоиды, карточки */
+  .advantages__card-title,
+  .factoid__title {
+    font-size: 0.9375rem;
+  }
+  .advantages__card-desc,
+  .factoid__desc {
+    font-size: 0.8125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo__inner,
+  .advantages__container,
+  .competencies__container,
+  .clients__container,
+  .portfolio__container,
+  .team__container,
+  .licenses__container,
+  .timeline__container,
+  .calc__container,
+  .contacts__container {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .promo__title {
+    font-size: clamp(1.2rem, 5.5vw, 1.5rem);
+  }
+  .promo__buttons {
+    max-width: 100%;
+  }
+  .advantages__title,
+  .competencies__title,
+  .team__title,
+  .licenses__title,
+  .clients__title,
+  .portfolio__title,
+  .timeline__title {
+    font-size: 1.0625rem;
+  }
+  .licenses__grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .header__container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  .header .header__btn {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+  }
+}
+
+/* Сообщения форм (успех/ошибка) */
+.form-message {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: none;
+}
+.form-message--success {
+  display: block !important;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+.form-message--error {
+  display: block !important;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+.countdown-timer {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #721c24;
+}
+.countdown-timer strong {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #c82333;
+}
+#calc-request-form .form-message,
+#calc-request-message {
+  margin-top: 0.5rem;
+}
+.calc__form-message--success {
+  display: block !important;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+.calc__form-message--error {
+  display: block !important;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}

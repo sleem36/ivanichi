@@ -1,0 +1,812 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Компания &quot;Иванычи&quot; - широкий спектр услуг по проектированию, производству, установке и обслуживанию инженерных систем. Все инженерные системы объектов капитального строительства под ключ. Более 20 лет успешной работы." />
+<link href="/bitrix/cache/css/s1/ivanychi/page_b957b405f6c66eb1b210675297526a84/page_b957b405f6c66eb1b210675297526a84_v1.css?1758126196356" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/ivanychi/template_29ed00019deb733279c5d3b72b84dcf7/template_29ed00019deb733279c5d3b72b84dcf7_v1.css?175812544157013" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script type="text/javascript"  src="/bitrix/cache/js/s1/ivanychi/template_3db18a31013e45d97582dc333588392a/template_3db18a31013e45d97582dc333588392a_v1.js?17581254411786"></script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "c56fdc32cc824eb878a2a6a645534421"]); _ba.push(["host", "aircon-lux.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Комплексное проектирование и обслуживание инженерных систем</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?ver=0.1" />
+		<link rel="icon" type="image/png" sizes="120x120" href="/favicon-120x120.png">
+		<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="/bitrix/templates/ivanychi/css/app.min.css">
+		<link rel="stylesheet" href="/bitrix/templates/ivanychi/css/custom.css">
+		<meta name="yandex-verification" content="431045070b03c05c" />
+		<script src="//code.jivo.ru/widget/XE1slgwdab" async data-skip-moving="true"></script>
+
+
+
+
+
+
+
+<!-- Микроразметка Open Graph + Twitter Cards для соцсетей -->
+<!-- Вставьте в <head> сайта (например, в /bitrix/templates/ivanychi/header.php перед </head>) -->
+
+<!-- Open Graph (Facebook, LinkedIn, VK, WhatsApp и др.) -->
+<meta property="og:site_name" content="Иванычи" />
+<meta property="og:title" content="Проектирование и монтаж инженерных систем — Иванычи" />
+<meta property="og:description" content="С 1999 года: проектирование, монтаж, сервис вентиляции, кондиционирования, отопления, пожарной сигнализации, умный дом. Бесплатный расчёт и консультация инженера." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://aircon-lux.ru/" />
+<meta property="og:image" content="https://aircon-lux.ru/bitrix/templates/ivanychi/images/dest/video_poster.jfif" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Компания Иванычи — проектирование и монтаж инженерных систем" />
+<meta property="og:locale" content="ru_RU" />
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@ivanychi" /> <!-- Замените на реальный @, если есть -->
+<meta name="twitter:title" content="Проектирование и монтаж инженерных систем — Иванычи" />
+<meta name="twitter:description" content="С 1999 года: вентиляция, кондиционирование, отопление, пожарная безопасность, умный дом. Бесплатная консультация." />
+<meta name="twitter:image" content="https://aircon-lux.ru/bitrix/templates/ivanychi/images/dest/video_poster.jfif" />
+<meta name="twitter:image:alt" content="Иванычи — инженерные системы под ключ" />
+
+<!-- Дополнительно: контактные данные для соцсетей -->
+<meta property="business:contact_data:phone_number" content="+7 495 660-39-45" />
+<meta property="business:contact_data:website" content="https://aircon-lux.ru/" />
+
+
+	</head>
+	<body class="123321 main-page">
+
+
+
+<!-- /Yandex.Metrika counter -->
+
+<!-- Доступы для Zharkov SEO: -->
+<meta name="yandex-verification" content="cdb872e0a61a1c03" />
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104023828', 'ym');
+
+    ym(104023828, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/104023828" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- /Доступы для Zharkov SEO -->
+<!-- calltouch -->
+<script>
+(function(w,d,n,c){w.CalltouchDataObject=n;w[n]=function(){w[n]["callbacks"].push(arguments)};if(!w[n]["callbacks"]){w[n]["callbacks"]=[]}w[n]["loaded"]=false;if(typeof c!=="object"){c=[c]}w[n]["counters"]=c;for(var i=0;i<c.length;i+=1){p(c[i])}function p(cId){var a=d.getElementsByTagName("script")[0],s=d.createElement("script"),i=function(){a.parentNode.insertBefore(s,a)},m=typeof Array.prototype.find === 'function',n=m?"init-min.js":"init.js";s.async=true;s.src="https://mod.calltouch.ru/"+n+"?id="+cId;if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",i,false)}else{i()}}})(window,document,"ct","4ix4d83g");
+</script>
+<!-- calltouch -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PZGRP48L80"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PZGRP48L80');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(88694545, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://aircon-lux.ru/#organization",
+      "name": "Иванычи",
+      "url": "https://aircon-lux.ru/",
+      "logo": "https://aircon-lux.ru/bitrix/templates/ivanychi/images/logo.png",
+      "description": "Проектирование, монтаж и обслуживание инженерных систем с 1999 года. Полный комплекс услуг: вентиляция, кондиционирование, отопление, пожарная сигнализация, умный дом и др.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RU"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+7-495-660-39-45",
+        "contactType": "customer service",
+        "availableLanguage": "Russian",
+        "hoursAvailable": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "09:00",
+            "closes": "18:00"
+          }
+        ]
+      },
+      "sameAs": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aircon-lux.ru/#website",
+      "url": "https://aircon-lux.ru/",
+      "name": "Иванычи — проектирование и монтаж инженерных систем",
+      "publisher": {
+        "@id": "https://aircon-lux.ru/#organization"
+      },
+      "inLanguage": "ru-RU"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://aircon-lux.ru/#service-design",
+      "name": "Проектирование инженерных систем",
+      "provider": {
+        "@id": "https://aircon-lux.ru/#organization"
+      },
+      "serviceType": "Проектирование систем вентиляции, кондиционирования, отопления, водоснабжения, пожарной сигнализации и др.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Россия"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://aircon-lux.ru/",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "description": "Бесплатный расчёт и консультация инженера"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://aircon-lux.ru/#service-installation",
+      "name": "Монтаж инженерных систем",
+      "provider": {
+        "@id": "https://aircon-lux.ru/#organization"
+      },
+      "serviceType": "Монтаж, пусконаладка, ввод в эксплуатацию систем вентиляции, кондиционирования, отопления, пожаротушения, умный дом",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Россия"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://aircon-lux.ru/",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://aircon-lux.ru/#service-maintenance",
+      "name": "Сервисное обслуживание инженерных систем",
+      "provider": {
+        "@id": "https://aircon-lux.ru/#organization"
+      },
+      "serviceType": "Гарантийное и постгарантийное обслуживание, ремонт, модернизация",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Россия"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://aircon-lux.ru/#service-duct-production",
+      "name": "Производство воздуховодов",
+      "provider": {
+        "@id": "https://aircon-lux.ru/#organization"
+      },
+      "serviceType": "Изготовление воздуховодов и фасонных изделий для систем вентиляции"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://aircon-lux.ru/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Главная",
+          "item": "https://aircon-lux.ru/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/88694545" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+<!-- Marquiz script start -->
+<script>
+(function(w, d, s, o){
+  var j = d.createElement(s); j.async = true; j.src = '//script.marquiz.ru/v2.js';j.onload = function() {
+    if (document.readyState !== 'loading') Marquiz.init(o);
+    else document.addEventListener("DOMContentLoaded", function() {
+      Marquiz.init(o);
+    });
+  };
+  d.head.insertBefore(j, d.head.firstElementChild);
+})(window, document, 'script', {
+    host: '//quiz.marquiz.ru',
+    region: 'ru',
+    id: '67f914ff7e4d920019a1d685',
+    autoOpen: false,
+    autoOpenFreq: 'once',
+    openOnExit: false,
+    disableOnMobile: false
+  }
+);
+</script>
+<!-- Marquiz script end -->
+
+
+
+
+
+
+
+		<div class="wrapper">
+			<div class="content">
+				<div id="panel">
+									</div>
+								<header class="header_gray">
+					<div class="inner-page">
+						<div class="header__left">
+							<a href="/" class="logo"><img width="180" height="24" src="/bitrix/templates/ivanychi/images/dest/logo.svg?v=1" alt="Logo"></a>
+							<div class="slogan">Работаем с 1999 года</div>
+						</div>
+						<div class="header-contacts">
+							<a href="tel:+74956603945">+7 495 660 39 45</a>							<div class="header-contacts__phone">
+								 <a href="https://t.me/ivanichiairconlux"><i class="bi bi-telegram"></i></a> <a href="https://wa.me/+79937002202"><i class="bi bi-whatsapp"></i></a>							</div>
+							<div class="header-contacts__schedule">
+							ПН-ПТ 09:00-18:00
+							</div>
+						</div>
+						<div class="header__right">
+							<div class="menu">
+								<ul class="menu-h categories-list plus-align-left">
+	<li>
+		<a href="/o-nas/">О нас</a>			</li>
+	<li class="menu__childes">
+		<a href="/uslugi/">Услуги</a><span class="menu__b" data-menut="Услуги" data-link="/uslugi/"></span>				<ul>
+						<li><a href="/uslugi/zelenye-proekty/">«Зеленые» проекты</a>
+							</li>
+						<li><a href="/uslugi/avtomatizatsiya-i-dispetcherizatsiya-inzhenernykh-sistem/">Автоматизация и Диспетчеризация Инженерных систем</a>
+							</li>
+						<li><a href="/uslugi/vodosnabzhenie-i-vodootvedenie/">Водоснабжение и водоотведение</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/vodosnabzhenie-i-vodootvedenie/montazh-truboprovoda/">Монтаж трубопровода</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/vodosnabzhenie-i-vodootvedenie/montazh-teplykh-polov/">Монтаж теплых полов</a>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/inzhenernye-sistemy-pod-klyuch-dlya-zdaniy-tekhnoparkov/">Инженерные системы «под ключ» для зданий технопарков</a>
+							</li>
+						<li><a href="/uslugi/postavka-materialov-i-oborudovaniya/">Поставка материалов и оборудования</a>
+							</li>
+						<li><a href="/uslugi/proektirovanie-vnutrennikh-inzhenernykh-sistem/">Проектирование внутренних Инженерных систем</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/proektirovanie-vnutrennikh-inzhenernykh-sistem/proekt-vodosnabcheniya/">Проектирование систем водоснабжения и канализации</a>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/proizvodstvo-vozdukhovodov-i-fasonnykh-izdeliy/">Производство воздуховодов и фасонных изделий</a>
+							</li>
+						<li><a href="/uslugi/protivodymnaya-ventilyatsiya/">Противодымная Вентиляция</a>
+							</li>
+						<li><a href="/uslugi/servis-inzhenernykh-sistem/">Сервис инженерных систем</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/servis-inzhenernykh-sistem/obsluzhivanie-inzhenernykh-sistem/">Обслуживание и эксплуатация инженерных систем</a>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/sistemy-ventilyatsii/">Системы Вентиляции</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/proektirovanie-ventilyacii/">Проектирование вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/montazh-promyshlennoj-ventilyacii/">Монтаж промышленной вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/avtomatizaciya-ventilyacii-i-kondicionirovaniya/">Автоматизация вентиляции и кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/">Вентиляция помещений</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/promyshlennaya-aspiratsiya-vozdukha/">Промышленная аспирация воздуха</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/obsluzhivanie-sistem-ventilyatsii/">Обслуживание систем вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/puskonaladka-ventilyatsii/">Пусконаладка вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/modernizatsiya-i-rekonstruktsiya-sistem-ventilyatsii/">Модернизация и реконструкция систем вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/pasportizatsiya-ventilyatsionnykh-sistem/">Паспортизация вентиляционных систем</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/ekspertiza-ventilyatsii/">Экспертиза вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/obsledovanie-i-diagnostika-ventilyatsii/">Обследование и диагностика вентиляции</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-ventilyatsii/integratsiya-inzhenernykh-sistem/">Интеграция инженерных систем</a>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-ventilyatsii/avtomatika-atomatizatsiya/">Автоматика (атоматизация)</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/avtomatika-atomatizatsiya/proektirovanie-avtomatiki-ventilyatsii/">Проектирование автоматики вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/avtomatika-atomatizatsiya/montazh-avtomatiki-ventilyatsii/">Монтаж автоматики вентиляции</a></li>
+                                                    </ul>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/">Вентиляция помещений</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-arkhiva/">Вентиляция архива</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-v-nezhilom-pomeshchenii/">Вентиляция в нежилом помещении</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-v-shkole/">Вентиляция в школе</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-detskogo-sada/">Вентиляция детского сада</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-servernoy-tsod/">Вентиляция серверной (ЦОД)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-ofisov/">Вентиляция офисов</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-basseyna/">Вентиляция бассейна</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-administrativnykh-zdaniy/">Вентиляция административных зданий</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-zhilykh-zdaniy/">Вентиляция жилых зданий</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-mnogokvartirnogo-doma/">Вентиляция многоквартирного дома</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-zimnego-sada/">Вентиляция зимнего сада</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-bolnitsy-i-lechebnye-uchrezhdeniya/">Вентиляция больницы и лечебного учреждения</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-stomatologii/">Вентиляция стоматологии</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-v-laboratorii/">Вентиляция в лаборатории</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-apteki/">Вентиляция аптеки</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-avtoservisa-sto/">Вентиляция автосервиса (СТО)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-avtomoyki/">Вентиляция автомойки</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-avtostoyanki/">Вентиляция автостоянки</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-pokrasochnoy-kamery/">Вентиляция покрасочной камеры</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-proizvodstvennykh-pomeshcheniy/">Вентиляция производственных помещений</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-kalyannoy/">Вентиляция кальянной</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-obshchepita/">Вентиляция общепита</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-restorana-kafe-stolovoy/">Вентиляция ресторана, кафе, столовой</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-kinoteatra-ili-kluba/">Вентиляция кинотеатра или клуба</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-sportzala-fitnes-klubov/">Вентиляция спортзала (фитнес клубов)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-salona-krasoty-parikmakherskikh/">Вентиляция салона красоты, парикмахерских</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-pekarni/">Вентиляция пекарни</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-torgovykh-tsentrov-tts/">Вентиляция торговых центров (ТЦ)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-magazina/">Вентиляция магазина</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-supermarketa/">Вентиляция супермаркета</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-sklada/">Вентиляция склада</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-ovoshchekhranilishcha/">Вентиляция овощехранилища</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-oteley-gostinits/">Вентиляция отелей, гостиниц</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-chistykh-pomeshcheniy/">Вентиляция чистых помещений</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-khimicheskikh-proizvodstv/">Вентиляция химических производств</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-khimicheskikh-laboratoriy/">Вентиляция химических лабораторий</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-dlya-mayninga/">Вентиляция для майнинга</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-akkumulyatornykh/">Вентиляция аккумуляторных</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-zagorodnykh-domov-kottedzhey/">Вентиляция загородных домов (коттеджей)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-tsekha/">Вентиляция цеха</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-v-goryachikh-tsekhakh/">Вентиляция в горячих цехах</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-v-pokrasochnoy-kamere-tsekha/">Вентиляция в покрасочной камере (цеха)</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-konditerskogo-tsekha/">Вентиляция кондитерского цеха</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-liteynogo-tsekha/">Вентиляция литейного цеха</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-galvanicheskogo-tsekha/">Вентиляция гальванического цеха</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/ventilyatsiya-pomeshcheniy/ventilyatsiya-svarochnogo-tsekha-posta/">Вентиляция сварочного цеха (поста)</a></li>
+                                                    </ul>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/">Монтаж вентиляции</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/ventilyatsiya-kommercheskogo-pomeshcheniya/">Вентиляция коммерческого помещения</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-promyshlennoy-ventilyatsii/">Монтаж вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-bytovoy-ventilyatsii/">Монтаж бытовой вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-ventilyatsii-s-uvlazhneniem-i-osusheniem/">Монтаж вентиляции с увлажнением и осушением</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-pritochno-vytyazhnoy-sistemy-ventilyatsii/">Монтаж приточно-вытяжной системы вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-pritochnoy-ventilyatsii/">Монтаж приточной вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-vytyazhnoy-ventilyatsii/">Монтаж вытяжной вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-ventilyatsii-s-rekuperatsiey/">Монтаж вентиляции с рекуперацией</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-estestvennoy-ventilyatsii/">Монтаж естественной вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-vav-sistemy/">Монтаж VAV системы</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-ventilyatsii-s-retsirkulyatsiey/">Монтаж вентиляции с рециркуляцией</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-tsentralnoy-ventilyatsii/">Монтаж центральной вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-detsentralizovannoy-sistemy-ventilyatsii/">Монтаж децентрализованной системы вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-ventilyatsii-s-filtratsiey/">Монтаж вентиляции с фильтрацией</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-vozdukhovodov-ventilyatsii/">Монтаж воздуховодов вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/montazh-ventilyatsii/montazh-sistemy-protivodymnoy-ventilyatsii/">Монтаж системы противодымной вентиляции</a></li>
+                                                    </ul>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-ventilyatsii/proektirovanie-ventilyatsii/">Проектирование вентиляции</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/proektirovanie-ventilyatsii/proektirovanie-ventilyatsii/">Проектирование вентиляции</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/proektirovanie-ventilyatsii/proektirovanie-promyshlennoy-ventilyatsii/">Проектирование промышленной вентиляции</a></li>
+                                                    </ul>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-ventilyatsii/promyshlennaya-aspiratsiya-vozdukha/">Промышленная аспирация воздуха</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/promyshlennaya-aspiratsiya-vozdukha/mobilnye-sistemy-aspiratsii/">Мобильные системы аспирации</a></li>
+                                                            <li><a href="/uslugi/sistemy-ventilyatsii/promyshlennaya-aspiratsiya-vozdukha/statsionarnye-sistemy-aspiratsii/">Стационарные системы аспирации</a></li>
+                                                    </ul>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/sistemy-konditsionirovaniya/">Системы Кондиционирования</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/ustanovka-konditsionerov/">Установка кондиционеров</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/">Кондиционирование помещений</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/proektirovanie-konditsionirovaniya/">Проектирование кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/modernizatsiya-sistem-konditsionirovaniya/">Модернизация систем кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/obsluzhivanie-sistem-konditsionirovaniya/">Обслуживание систем кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/pusko-naladka-konditsionirovaniya/">Пуско-наладка кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/ekspertiza-konditsionirovaniya/">Экспертиза кондиционирования</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/remont-konditsionirovaniya/">Ремонт кондиционирования</a>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/">Кондиционирование помещений</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-ofisa/">Кондиционирование офиса</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-magazina/">Кондиционирование магазина</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-ofisnogo-zdaniya/">Кондиционирование офисного здания</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-servernoy/">Кондиционирование серверной</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-torgovykh-tsentrov/">Кондиционирование торговых центров</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-restorana/">Кондиционирование ресторана</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-gostinitsy/">Кондиционирование гостиницы</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-bolnitsy-ili-medtsentra/">Кондиционирование больниц или медцентра</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-apteki/">Кондиционирование аптеки</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-sportzala/">Кондиционирование спортзала</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-sklada/">Кондиционирование склада</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-proizvodstva/">Кондиционирование производства</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-administrativnykh-zdaniy/">Кондиционирование административных зданий</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-tsekha/">Кондиционирование цеха</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-kinoteatra/">Кондиционирование кинотеатра</a></li>
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/konditsionirovanie-pomeshcheniy/konditsionirovanie-shkoly/">Кондиционирование школы</a></li>
+                                                    </ul>
+                                            </li>
+										<li class="has-child">
+                        <a href="/uslugi/sistemy-konditsionirovaniya/ustanovka-konditsionerov/">Установка кондиционеров</a>
+                                                <span class="toggle-menu"></span>
+                        <ul style="display: none">
+                                                            <li><a href="/uslugi/sistemy-konditsionirovaniya/ustanovka-konditsionerov/montazh-sistem-konditsionirovaniya/">Монтаж систем кондиционирования</a></li>
+                                                    </ul>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/sistemy-otopleniya-i-teplosnabzheniya/">Системы отопления и теплоснабжения</a>
+								<ul>
+										<li class="">
+                        <a href="/uslugi/sistemy-otopleniya-i-teplosnabzheniya/montazh-otopleniya/">Монтаж отопления</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-otopleniya-i-teplosnabzheniya/proektirovanie-otopleniya/">Проектирование отопления</a>
+                                            </li>
+										<li class="">
+                        <a href="/uslugi/sistemy-otopleniya-i-teplosnabzheniya/obsluzhivanie-sistem-teplosnabzheniya/">Обслуживание систем теплоснабжения</a>
+                                            </li>
+									</ul>
+							</li>
+						<li><a href="/uslugi/sistemy-protivopozharnoy-bezopasnosti/">Системы противопожарной безопасности</a>
+							</li>
+						<li><a href="/uslugi/slabotochnye-sistemy/">Слаботочные системы</a>
+							</li>
+					</ul>
+			</li>
+	<li>
+		<a href="/primery-rabot/">Примеры работ</a>			</li>
+	<li>
+		<a href="/dokumenty/">Документы</a>			</li>
+	<li>
+		<a href="/blog/">Блог</a>			</li>
+	<li>
+		<a href="/kontakty/">Контакты</a>			</li>
+</ul>
+								<div class="menu__btm">
+									<div class="menu__phone">
+										 <a href="https://t.me/ivanichiairconlux"><i class="bi bi-telegram"></i></a> <a href="https://wa.me/+79937002202"><i class="bi bi-whatsapp"></i></a>									</div>
+									<a href="tel:+74956603945">+7 495 660 39 45</a>									<a href="mailto:ivanichi@airconlux.ru">ivanichi@airconlux.ru</a>									<div class="menu__address">
+										Московская область, город Наро-Фоминск, <br>ул.&nbsp;Володарского 169Б, 143302									</div>
+								</div>
+							</div>
+							<div class="search">
+	<div class="search__btn"></div>
+	<form action="/search/index.php">
+		<input type="text" name="q" value="" size="15" maxlength="50" />			<input style="display: none" name="s" type="submit" value="Поиск" />
+	</form>
+</div>							<a href="#callback" class="btn btn_right callback popup-link">Связаться с нами </a>
+							<div class="menu-btn">
+								<i></i>
+								<i></i>
+								<i></i>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="menu-child">
+					<div class="inner-page">
+						<div class="menu-child__ttl"><a href=""></a></div>
+						<ul></ul>
+					</div>
+				</div>
+
+<div class="section section-breadcrumbs"><div class="inner-page row row_bottom"><div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList"><ul>
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<a href="/" title="Главная" itemprop="item">
+					<span itemprop="name">Главная</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</li>
+			<li itemscope itemtype="http://schema.org/ListItem">
+				<span itemprop="name">Статьи</span>
+				<meta itemprop="position" content="2" />
+			</li></ul></div></div></div>
+<div class="content-area">
+	<section class="section error gray">
+		<div class="inner-page row">
+			<div class="error__left">
+				<div class="error__ttl">Что-то пошло<br> не так...</div>
+			</div>
+			<div class="error__right">
+				<h1>Ошибка 404</h1>
+				<p>Страница, которую вы запрашиваете, не существует. Возможно она была удалена, или вы набрали неверный адрес. перейдите на нашу <a href="/">главную страницу</a> и попробуйте найти необходимую вам информацию.</p>
+			</div>
+		</div>
+	</section>
+	<section class="section gray articles">
+    <div class="inner-page">
+        <div class="row row_bottom">
+            <div class="h3">Статьи</div>
+            <a href="/stati/" class="right-link">Все</a>
+        </div>
+        
+<div class="article-bl">
+						<div class="article-bl__item">
+												<a href="#modal-23" class="article-bl__ttl" data-fancybox data-src="#modal-23">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</a>
+													<div class="article-bl__bottom">
+				<span class="article-bl__cat">Новости компании</span>
+									<div class="articles-bl__date">27.09.2022</div>
+							</div>
+		</div>
+		<div class="modal" id="modal-23">
+							<p class="modal__ttl">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</p>
+									<div class="modal__bottom">
+				<span class="modal__cat">Новости компании</span>
+									<div class="modal__date">27.09.2022</div>
+							</div>
+		</div>
+							<div class="article-bl__item">
+												<a href="#modal-22" class="article-bl__ttl" data-fancybox data-src="#modal-22">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</a>
+													<div class="article-bl__bottom">
+				<span class="article-bl__cat">Новости компании</span>
+									<div class="articles-bl__date">27.09.2022</div>
+							</div>
+		</div>
+		<div class="modal" id="modal-22">
+							<p class="modal__ttl">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</p>
+									<div class="modal__bottom">
+				<span class="modal__cat">Новости компании</span>
+									<div class="modal__date">27.09.2022</div>
+							</div>
+		</div>
+							<div class="article-bl__item">
+												<a href="#modal-21" class="article-bl__ttl" data-fancybox data-src="#modal-21">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</a>
+													<div class="article-bl__bottom">
+				<span class="article-bl__cat">Новости компании</span>
+									<div class="articles-bl__date">27.09.2022</div>
+							</div>
+		</div>
+		<div class="modal" id="modal-21">
+							<p class="modal__ttl">ООО «Компания Иванычи» поздравляет всех с Днем Победы!</p>
+									<div class="modal__bottom">
+				<span class="modal__cat">Новости компании</span>
+									<div class="modal__date">27.09.2022</div>
+							</div>
+		</div>
+				</div>
+            </div>
+</section></div>
+
+			</div>
+			<footer class="footer footer--2">
+				<div class="inner-page">
+					<div class="footer__top">
+						<a href="/" class="logo"><img width="180" height="24" src="/bitrix/templates/ivanychi/images/dest/logo.svg" alt="Logo"></a>
+					</div>
+					<div class="footer__midd row">
+						<div class="footer__left">
+							<div class="footer__phone">
+								<a href="tel:+74956603945">+7 495 660 39 45</a>								<div class="footer__mail">
+									<a href="mailto:ivanichi@airconlux.ru">ivanichi@airconlux.ru</a>								</div>
+								<div class="footer__phone-icons">
+									 <a href="https://t.me/ivanichiairconlux"><i class="bi bi-telegram"></i></a> <a href="https://wa.me/+79937002202"><i class="bi bi-whatsapp"></i></a>								</div>
+							</div>
+							<div class="footer__address">
+								Московская область, город Наро-Фоминск, <br>ул.&nbsp;Володарского 169Б, 143302							</div>
+							<div class="footer__newsletter">
+								<form class="form" action="/">
+									<p>Получите бесплатную консультацию</p>
+									<input name="name" type="text" class="required" placeholder="Ваше имя">
+									<input name="phone" type="text" class="required" placeholder="Ваш телефон">
+									<input class="btn" name="OK" type="submit" value="Получить">
+									<p>Соглашаясь на рассылку, вы принимаете <a href="/politika-konfidentsialnosti/">Политику конфиденциальности</a></p>
+								</form>
+							</div>
+						</div>
+						<div class="footer__right">
+							<ul class="footer__menu">
+								<li><a href="/">ГЛАВНАЯ</a></li>
+								<li><a href="/o-nas/">О НАС</a></li>
+								<li><a href="/uslugi/">УСЛУГИ</a></li>
+								<li><a href="/primery-rabot/">ПРИМЕРЫ РАБОТ</a></li>
+								<li><a href="/dokumenty/">ДОКУМЕНТЫ</a></li>
+								<li><a href="/kontakty/">КОНТАКТЫ</a></li>
+								<li><a href="/stati/">СТАТЬИ</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom">
+					    <div>
+    						© ООО "Компания Иванычи" 1999 — 2025 Промышленная вентиляция и кондиционирование воздуха, производство воздуховодов.<br>
+ ИНН 5030035546, ОГРН 1025003755556<br>
+Информация, размещенная на данном сайте, носит только ознакомительный характер и ни при каких условиях не является публичной офертой.						</div>
+						<div><a style="display:flex;align-items:center;gap:10px;white-space:nowrap;" href="https://impecco.ru/" target="_blank"><span>Разработка и продвижение - агентство Impecco</span></a>
+						
+						</div>
+					</div>
+				</div>
+			</footer>
+		 			</div>
+
+
+
+
+	 	<div class="popup-over"></div>
+	 	<div id="callback" class="popup">
+	 		<div class="close popup__close"></div>
+	 		<div class="popup__title">Коммерческое предложение</div>
+	 		<form action="" class="form" id="form_to_crm">
+	 			<div class="popup__item">
+	 				<div class="popup__ttl">Имя</div>
+	 				<input name="name" type="text" class="required" placeholder="Заполните поле ">
+	 			</div>
+	 				 			<div class="popup__item">
+	 				<div class="popup__ttl">Email</div>
+	 				<input name="email" type="email" class="required" placeholder="Заполните поле">
+	 			</div>
+	 			<div class="popup__item">
+	 				<div class="popup__ttl">Описание проекта</div>
+	 				<input type="text" name="text" placeholder="Заполните поле ">
+	 				<div class="input-file">
+					  <input type="file" name="FILES[]" id="input__file" class="input input-file__hidden" accept=".png,.jpg,.jpeg" multiple>
+					  <label for="input__file" class="input-file__btn"></label>
+					  <div class="input-file__msg">
+					  	<div class="input-file__msgttl">Прикрепленные файлы: <span>0</span></div>
+					  	<p>Вы можете прикрепить к обращению файлы формата JPEG или PNG весом не более 10 Мб, а также DOCX или PDF документы не более 10 Мб</p>
+					  </div>
+					</div>
+	 			</div>
+	 			<label class="chk"><input name="mailing-list" type="checkbox" name="" value=""><span class="chk__lbl">Хочу получать новостную рассылку</span></label>
+	 			<div class="popup__or"><span>или</span></div>
+	 			<div class="popup__item mob-hidden">
+	 				<div class="popup__ttl">Телефон</div>
+	 				<input type="text" name="phone" placeholder="Заполните поле">
+	 			</div>
+	 			<input class="btn" name="OK" type="submit" value="Оставить заявку">
+	 			<p>Соглашаясь на новостную рассылку, вы принимаете нашу <a href="/politika-konfidentsialnosti/">Политику конфиденциальности</a></p>
+	 		</form>
+	 	</div>
+	 	<div id="article" class="popup-center">
+	 		<div class="close"></div>
+	 		<div class="article-popup">
+				<div class="article-bl__ttl"></div>
+				<div class="articles-bl__txt">
+				</div>
+				<div class="article-bl__bottom">
+					<a href="/" class="article-bl__cat">&nbsp;</a>
+					<div class="articles-bl__date"></div>
+				</div>
+			</div>
+	 	</div>
+	 	<div class="modal" id="popup-success">
+				 		Ваше сообщение отправлено. Спасибо.
+	 	</div>
+		<script src="/bitrix/templates/ivanychi/js/app.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="/bitrix/templates/ivanychi/js/custom.js?v1"></script>
+<!-- calltouch request -->
+<script>
+      jQuery(document).on("click", 'form input[type="submit"]', function() {
+        var m = jQuery(this).closest('form');         
+		var fio = m.find('input[name*="name"],input[placeholder*="Введите имя"]').val();
+		var ct_phone = m.find('input[name*="phone"],input[placeholder*="+7 (000) 000-00-00"]').val(); 
+		var mail = m.find('input[name*="email"]').val();
+       
+        var ct_site_id = '59076';
+        var ct_sub = 'Заявка с ' + location.hostname;
+        var ct_data = {  
+           fio: fio,		
+            phoneNumber: ct_phone,  
+		              subject: ct_sub,
+					  email: mail,
+            requestUrl: location.href,
+            sessionId: window.call_value
+        };
+        var ct_valid = !!ct_phone || !!mail;
+        console.log(ct_data,ct_valid);
+        if (ct_valid){
+            jQuery.ajax({  
+              url: 'https://api.calltouch.ru/calls-service/RestAPI/requests/'+ct_site_id+'/register/', 
+              dataType: 'json', type: 'POST', data: ct_data, async: false
+            }); 
+        }
+    });
+</script> 
+<script type='text/javascript'>
+var _ctreq_jivo = function(sub) {
+    var sid = '59076';
+    var jc = jivo_api.getContactInfo(); var fio = ''; var phone = ''; var email = '';
+    if (!!jc.client_name){fio = jc.client_name;} if (!!jc.phone){phone = jc.phone;} if (!!jc.email){email = jc.email;}
+	console.log(jc);
+	console.log(jc.client_name);
+	console.log(jc.phone);
+	console.log(jc.email);
+    var ct_data = { fio: fio, phoneNumber: phone, email: email, subject: sub, requestUrl: location.href, sessionId: window.call_value };
+    var request = window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):new XMLHttpRequest();
+    var post_data = Object.keys(ct_data).reduce(function(a, k) {if(!!ct_data[k]){a.push(k + '=' + encodeURIComponent(ct_data[k]));}return a}, []).join('&');
+    var url = 'https://api.calltouch.ru/calls-service/RestAPI/'+sid+'/requests/orders/register/';
+    request.open("POST", url, true); request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded'); request.send(post_data);
+}
+window.jivo_onIntroduction = function() { _ctreq_jivo('JivoSite посетитель оставил контакты'); }
+window.jivo_onCallStart = function() { _ctreq_jivo('JivoSite обратный звонок'); }
+window.jivo_onMessageSent = function() { ct('goal','jivo_ms'); }
+</script>
+<!-- calltouch request -->
+	</body>
+</html>
